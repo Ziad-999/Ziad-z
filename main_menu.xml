@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/install_gms"
+        android:title="Install Google Services"
+        android:icon="@drawable/ic_install_gms"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/uninstall_gms"
+        android:title="Uninstall Google Services"
+        android:icon="@drawable/ic_uninstall_gms"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/fixinstall"
+        android:title="Fix OBB Error"
+        android:icon="@drawable/ic_fix_obb"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/toggle_recording"
+        android:title="Hide Recording"
+        android:icon="@drawable/ic_record_off"
+        android:showAsAction="ifRoom"/>
+</menu>

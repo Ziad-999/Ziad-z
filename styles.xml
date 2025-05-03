@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="white">@color/white</item>
+		<item name="black">@color/black</item>
+		<item name="gray">@color/gray</item>
+		<item name="gray200">@color/gray200</item>
+		<item name="myblueplus">@color/myblueplus</item>
+		<item name="whitepermanent">@color/whitepermanent</item>
+		<item name="cardcancel">@color/cardcancel</item>
+		<item name="textcancel">@color/textcancel</item>
+		 <item name="popupMenuStyle">@style/PopupMenuStyle</item>
+		 
+	</style>
+	
+	<style name="AppTheme2" parent="Theme.AppCompat.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary2</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+		<item name="colorAccent">@color/colorAccent2</item>
+		<item name="white">@color/white2</item>
+		<item name="black">@color/black2</item>
+		<item name="gray">@color/gray2</item>
+		<item name="gray200">@color/gray2002</item>
+		<item name="myblueplus">@color/myblueplus2</item>
+		<item name="whitepermanent">@color/whitepermanent2</item>
+		<item name="cardcancel">@color/cardcancel2</item>
+		<item name="textcancel">@color/textcancel2</item>
+		
+	</style>
+	
+	<style name="mydialog" parent="@android:style/ThemeOverlay.Material.Dialog.Alert">
+		<item name="android:textColor">?attr/black</item>
+		<item name="colorAccent">?attr/black</item>
+	</style>
+		
+	
+
+
+    <!-- Custom popup menu background -->
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/popup_menu_bg</item>
+    </style>
+
+
+
+
+
+	
+	<style name="SlidingDialogAnimation">
+		<item name="android:windowEnterAnimation">@anim/zoom_in</item>
+		<item name="android:windowExitAnimation">@anim/zoom_out</item>
+	</style>
+	
+    <style name="DownloadDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/bottom_to_top</item>
+        <item name="android:windowExitAnimation">@anim/top_to_bottom</item>
+	</style>
+	
+</resources>
